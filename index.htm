@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Many Faces of Caroline</title>
+    <link href="css/lightbox.css" rel="stylesheet" />
+  <!--  <link href="css/one.css" rel="stylesheet" type="text/css" media="screen" />-->
+    <link href="css/one.css" rel="stylesheet" media="only screen and (max-device-width: 1023px)" />
+    <link href="css/desktop.css" rel="stylesheet" media="only screen and (min-width: 1024px), only screen and (min-device-width: 1024px)"/>
+    <script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+    <script>
+		$(document).ready(function() {
+			console.log(".mainContent padding-top = " + $(".mainContent").css("padding-top"));
+			if( $(".mainContent").css("padding-top") === "30px" ) {
+				var contentWidth = $(".mainContent").width();
+				var imgWidth = contentWidth * 0.95;
+				$(".photobox a img").css("width", imgWidth + "px");	
+			}
+			
+			$(window).resize(function() {
+				console.log(".mainContent padding-top = " + $(".mainContent").css("padding-top"));
+				if( $(".mainContent").css("padding-top") === "30px" ) {
+					var contentWidth = $(".mainContent").width();
+					var imgWidth = contentWidth * 0.95;
+					$(".photobox a img").css("width", imgWidth + "px");	
+				}	
+			});
+		});
+	</script>
+   
+</head>
+<body>
+
+<div class="header">
+	<h1>The Many Faces of Caroline</h1>
+</div>
+
+<div class="mainContent">
+    <div class="photobox">
+    	<a href="images/sad.jpg" data-lightbox="Caroline" data-title="Sad Caroline">
+        	<img src="images/sad.jpg" alt="This is sad Caroline."/>
+        </a>
+        <p class="photoComment">Sad Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/angry.jpg" data-lightbox="Caroline" data-title="Angry Caroline">
+	        <img src="images/angry.jpg" alt="This is angry Caroline."/>
+        </a>
+        <p class="photoComment">Angry Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/thirsty.jpg" data-lightbox="Caroline" data-title="Thirsty Caroline">
+        	<img src="images/thirsty.jpg" alt="This is thirsty Caroline."/>
+        </a>
+        <p class="photoComment">Thirsty Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/look.jpg" data-lightbox="Caroline" data-title="Looking Caroline">
+        	<img src="images/look.jpg" alt="This is looking Caroline."/>
+        </a>
+        <p class="photoComment">Looking Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/texting1.jpg" data-lightbox="Caroline" data-title="Texting Caroline">
+        	<img src="images/texting1.jpg" alt="This is texting Caroline."/>
+        </a>
+        <p class="photoComment">Texting Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/texting2.jpg" data-lightbox="Caroline" data-title="Texting Caroline 2">
+        	<img src="images/texting2.jpg" alt="This is texting Caroline."/>
+        </a>
+        <p class="photoComment">Texting Caroline 2</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/texting3.jpg" data-lightbox="Caroline" data-title="Texting Caroline 3">
+        	<img src="images/texting3.jpg" alt="This is texting Caroline."/>
+        </a>
+        <p class="photoComment">Texting Caroline 3</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/karate.jpg" data-lightbox="Caroline" data-title="Krate Caroline">
+        	<img src="images/karate.jpg" alt="This is karate Caroline."/>
+        </a>
+        <p class="photoComment">Karate Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/queen.jpg" data-lightbox="Caroline" data-title="Queen Caroline">
+        	<img src="images/queen.jpg" alt="This is queen Caroline."/>
+        </a>
+        <p class="photoComment">Queen Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/caramel.jpg" data-lightbox="Caroline" data-title="Caramel Caroline">
+        	<img src="images/caramel.jpg" alt="This is caranel Caroline."/>
+        </a>
+        <p class="photoComment">Caramel Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/headbutt.jpg" data-lightbox="Caroline" data-title="Headbutt Caroline">
+        	<img src="images/headbutt.jpg" alt="This is headbutt Caroline."/>
+        </a>
+        <p class="photoComment">Headbutt Caroline</p>
+    </div>
+        
+    <div class="photobox">
+    	<a href="images/thumbs1.jpg" data-lightbox="Caroline" data-title="Thumbs-up Caroline">
+        	<img src="images/thumbs1.jpg" alt="This is thumbs-up Caroline."/>
+        </a>
+        <p class="photoComment">Thumbs-up Caroline</p>
+    </div>
+    
+    <div class="photobox">
+    	<a href="images/thumbs2.jpg" data-lightbox="Caroline" data-title="Thumbs-up Caroline 2">
+        	<img src="images/thumbs2.jpg" alt="This is thumbs-up Caroline."/>
+        </a>
+        <p class="photoComment">Thumbs-up Caroline 2</p>
+    </div>
+        
+    <div class="photobox">
+    	<a href="images/driving.jpg" data-lightbox="Caroline" data-title="Driving Caroline">
+        	<img src="images/driving.jpg" alt="This is driving Caroline."/>
+        </a>
+        <p class="photoComment">Driving Caroline</p>
+    </div>
+</div>
+
+</body>
+</html>

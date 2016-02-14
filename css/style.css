@@ -1,0 +1,71 @@
+
+
+body {
+	background-color: grey;
+	background-image: url(../images/bg/lines.png);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+	margin: 0px;
+}
+
+.header {
+	text-align: center;	
+	background-color: rgba(0,0,0,0.9);
+}
+
+.mainContent {
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 5px;
+	width: 1024px;
+	text-align: center;
+}
+
+/*  
+    <link href="css/three.css"   rel="stylesheet" media="only screen and (min-width: 777px) and (max-width: 1023px)" />
+    <link href="css/desktop.css" rel="stylesheet" media="only screen and (min-width: 1024px)"/>*/
+
+@media only screen and (max-width: 521px), only screen and (max-device-width: 521px) {
+	.mainContent {
+		width: 270px;
+	}
+}
+
+@media only screen and (min-width: 522px) and (max-width: 776px), only screen and (min-device-width: 522px) and (max-device-width: 776px) {
+	.mainContent {
+		width: 512px;
+	}
+}
+
+@media only screen and (min-width: 777px) and (max-width: 1023px), only screen and (min-device-width: 777px) and (max-device-width: 1023px) {
+	.mainContent {
+		width: 768px;
+	}
+}
+
+@media only screen and (min-width: 1024px), only screen and (min-device-width: 1024px) {
+	.mainContent {
+		width: 1024px;
+	}
+}
+
+.photobox {
+	display: inline-block;	
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.9);
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.photobox a img {
+	width: 241px;
+/*	height: 424px;*/
+}
+
+.photoComment {
+	text-align: center;
+	font-size: 24px;
+}

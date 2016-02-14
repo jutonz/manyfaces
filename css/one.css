@@ -1,0 +1,42 @@
+
+
+body {
+	background-color: grey;
+	background-image: url(../images/bg/lines.png);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+	margin: 0px;
+}
+
+.header {
+	text-align: center;	
+	background-color: rgba(0,0,0,0.9);
+	font-size: 40px;
+}
+
+.mainContent {
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	width: 85%;
+	text-align: center;
+}
+
+.photobox {
+	display: inline-block;	
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.9);
+	margin-bottom: 50px;
+}
+
+.photobox a img {
+	width: 80%;
+/*	height: 424px;*/
+}
+
+.photoComment {
+	text-align: center;
+	font-size: 34px;
+}
